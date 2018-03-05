@@ -1,0 +1,22 @@
+--- a/influxdb/tests/dataframe_client_test.py
++++ b/influxdb/tests/dataframe_client_test.py
+@@ -28,7 +28,7 @@
+ 
+     def setUp(self):
+         # By default, raise exceptions on warnings
+-        warnings.simplefilter('error', FutureWarning)
++        warnings.simplefilter('ignore', FutureWarning)
+ 
+     def test_write_points_from_dataframe(self):
+         now = pd.Timestamp('1970-01-01 00:00+00:00')
+--- a/influxdb/tests/influxdb08/dataframe_client_test.py
++++ b/influxdb/tests/influxdb08/dataframe_client_test.py
+@@ -24,7 +24,7 @@
+ 
+     def setUp(self):
+         # By default, raise exceptions on warnings
+-        warnings.simplefilter('error', FutureWarning)
++        warnings.simplefilter('ignore', FutureWarning)
+ 
+     def test_write_points_from_dataframe(self):
+         now = pd.Timestamp('1970-01-01 00:00+00:00')

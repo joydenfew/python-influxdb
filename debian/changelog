@@ -1,0 +1,84 @@
+influxdb-python (5.0.0-2) unstable; urgency=medium
+
+  * depend fix
+
+ -- Jayden Hewer <jfh13@students.waikato.ac.nz>  Fri, 23 Feb 2018 9:36:22 +1300
+
+influxdb-python (5.0.0-1) unstable; urgency=medium
+
+  * updating version to 5.0
+
+ -- Jayden Hewer <jfh13@students.waikato.ac.nz>  Wed, 21 Feb 2018 10:43:11 +1300
+
+influxdb-python (4.1.1-1) unstable; urgency=medium
+
+  * New upstream version (Closes: #868967)
+  * Bump Standards-Version to 4.0.0.
+
+ -- Alexandre Viau <aviau@debian.org>  Wed, 02 Aug 2017 16:11:46 -0400
+
+influxdb-python (3.0.0-2) unstable; urgency=medium
+
+  * Disable FurureWarnings (Closes: #841559)
+
+ -- Alexandre Viau <aviau@debian.org>  Tue, 28 Feb 2017 15:44:10 -0500
+
+influxdb-python (3.0.0-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Bump Standards-Version to 3.9.8.
+  * Change Vcs-Git and Vcs-Browser to secure (https) URLs.
+
+ -- Alexandre Viau <aviau@debian.org>  Sun, 26 Jun 2016 21:53:39 +0200
+
+influxdb-python (2.12.0-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Alexandre Viau <aviau@debian.org>  Fri, 29 Jan 2016 10:10:50 -0500
+
+influxdb-python (2.11.0-1) unstable; urgency=medium
+
+  * New upstream version
+  * Changed my email to @debian.org
+  * Updated source link in d/copyright
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 11 Jan 2016 19:48:22 -0500
+
+influxdb-python (2.10.0-1) unstable; urgency=medium
+
+  * New upstream version (Closes: #802079)
+
+ -- Alexandre Viau <alexandre@alexandreviau.net>  Fri, 30 Oct 2015 16:14:53 -0400
+
+influxdb-python (2.8.0-1) unstable; urgency=low
+
+  * New upstream version
+  * debian/copyright: only mention copyright holder
+  * Changed Vcs-Browser link for cgit
+
+ -- Alexandre Viau <alexandre@alexandreviau.net>  Tue, 18 Aug 2015 14:48:42 -0400
+
+influxdb-python (2.7.3-1) unstable; urgency=medium
+
+  * New upstream version
+  * Re-enable tests
+  * Re-order control fields
+
+ -- Alexandre Viau <alexandre@alexandreviau.net>  Fri, 31 Jul 2015 10:20:24 -0400
+
+influxdb-python (2.6.0-1) unstable; urgency=medium
+
+  [ Alexandre Viau ]
+  * Released new upstream version (Closes: #791879)
+
+  [ Thomas Goirand ]
+  * Fixed identical short and long description.
+
+ -- Alexandre Viau <alexandre@alexandreviau.net>  Sat, 11 Jul 2015 19:21:32 -0400
+
+influxdb-python (0.1.12-1) unstable; urgency=low
+
+  * Initial release (Closes: #764643)
+
+ -- Alexandre Viau <alexandre@alexandreviau.net>  Fri, 10 Oct 2014 12:56:09 -0400
