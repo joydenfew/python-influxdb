@@ -26,8 +26,6 @@ run-build:
   artifacts:
     paths:
       - build-deb/*
-  only:
-      - tags
 
 deploy-package:
   stage: deploy
@@ -44,6 +42,3 @@ deploy-package:
     - package_cloud push Student/faucet/ubuntu/zesty *.deb
     - package_cloud push Student/faucet/ubuntu/artful *.deb
     - package_cloud push Student/faucet/ubuntu/bionic *.deb
-  only:
-      - tags
-
